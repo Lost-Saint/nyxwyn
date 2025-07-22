@@ -1,13 +1,17 @@
 <script lang="ts">
-	import Header from './Header.svelte';
-	import '../app.css';
+	import '../styles/index.css';
+
+	import MetaData from '$lib/components/MetaData.svelte';
+	import { useSiteConfig } from '$lib/utils/use-site-config.svelte';
+	import { siteConfig } from '$lib/config/site-config';
 
 	let { children } = $props();
+	useSiteConfig(() => siteConfig);
 </script>
 
-<div class="app">
-	<Header />
+<MetaData />
 
+<div class="app">
 	<main>
 		{@render children()}
 	</main>
