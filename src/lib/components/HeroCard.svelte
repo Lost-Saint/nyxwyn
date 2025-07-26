@@ -4,25 +4,27 @@
 </script>
 
 <div class="herocard">
-	<h1 class="herocard__title">Hello</h1>
+	<h1 class="herocard-title">Lost Saint</h1>
 	<About />
 	<SocialIcons />
 </div>
 
 <style>
 	.herocard {
+		--_spacing: 0.25rem;
 		min-width: 320px;
-		max-width: 48rem; /* max-w-3xl */
+		max-width: 48rem;
 		margin-inline: auto;
-		padding: 0 1.5rem 2.5rem; /* px-6 pb-10 */
+		padding-inline: calc(var(--_spacing) * 6);
+		padding-bottom: calc(var(--_spacing) * 10);
 		color: white;
 		font-family:
 			ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;
 	}
 
-	.herocard__title {
-		font-size: 2.25rem; /* text-4xl */
+	.herocard-title {
+		font-size: 2.25rem;
 		line-height: 2.5rem;
-		font-weight: 700; /* font-bold */
+		font-weight: 700;
 	}
 </style>

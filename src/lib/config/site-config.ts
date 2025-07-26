@@ -1,31 +1,38 @@
 import { defineSiteConfig } from '$lib/utils/use-site-config.svelte';
 
 export const siteConfig = defineSiteConfig({
-	name: 'Bits UI',
+	name: 'Lost Saint',
 	url: 'https://www.bits-ui.com',
 	description:
-		'Headless components for Svelte - flexible, unstyled, and accessible primitives that provide the foundation for building your own high-quality component library.',
+		'Lost Saint – Full-Stack Software Developer based in USA. Building web applications, distributed systems, and interactive experiences. Specializing in Go, Python, SvelteKit, and modern development practices.',
 	ogImage: {
 		url: 'https://www.bits-ui.com/og.png',
 		height: '630',
 		width: '1200'
 	},
-	author: 'Huntabyte',
+	author: 'Lost Saint',
 	license: {
 		name: 'MIT',
 		url: 'https://github.com/huntabyte/bits-ui/blob/main/LICENSE'
 	},
 	links: {
-		x: 'https://x.com/huntabyte',
-		github: 'https://github.com/huntabyte/bits-ui'
+		x: 'https://x.com',
+		github: 'https://github.com/Lost-Saint/nyxwyn'
 	},
 	keywords: [
-		'Svelte',
-		'SvelteKit',
-		'Svelte Components',
-		'Headless Svelte',
-		'Components',
-		'Headless UI Svelte'
+		'Lost Saint',
+		'Software Developer USA',
+		'Full Stack Developer USA',
+		'Texas Web Developer',
+		'USA Programmer',
+		'Software Engineer USA',
+		'Go Developer',
+		'Python Developer',
+		'SvelteKit Developer',
+		'Remote Developer USA',
+		'Web Development USA',
+		'Software Development USA',
+		'Tech Talent USA'
 	]
 });
 

@@ -1,6 +1,7 @@
-<section class="intro">
-	Hello! I'm Lost Saint, a Product Engineer passionate about elevating UX & DX.
-</section>
+<p class="intro">
+	Hi, I'm a software developer from Texas who loves building innovative solutions and bringing ideas
+	to life through code.
+</p>
 
 <style>
 	.intro {

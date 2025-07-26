@@ -1,15 +1,15 @@
 <script>
 	import ExternalLink from '$lib/components/ExternalLink.svelte';
-	import GithubIcon from '$lib/images/github-icon.svelte';
-	import XIcon from '$lib/images/x-icon.svelte';
+	import GithubIcon from '$lib/assets/github-icon.svelte';
+	import XIcon from '$lib/assets/x-icon.svelte';
 </script>
 
 <nav class="social-links">
-	<ExternalLink href="" title="GitHub">
+	<ExternalLink href="https://github.com/Lost-Saint" title="GitHub">
 		<GithubIcon size={28} />
 	</ExternalLink>
 
-	<ExternalLink href="" title="Twitter">
+	<ExternalLink href="/" title="Twitter">
 		<XIcon size={28} />
 	</ExternalLink>
 </nav>
