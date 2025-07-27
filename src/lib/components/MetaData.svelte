@@ -111,4 +111,5 @@
 			}
 		}
 	</script>
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="ff1ab351-2413-4ccb-9059-dc8429ab50ae"></script>
 </svelte:head>

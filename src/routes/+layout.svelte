@@ -2,6 +2,7 @@
 	import '../styles/index.css';
 
 	import { page } from '$app/state';
+    import { onNavigate } from '$app/navigation';
 	import MetaData from '$lib/components/MetaData.svelte';
 	import Header from '$lib/components/Nav.svelte';
 	import { useSiteConfig } from '$lib/utils/use-site-config.svelte';
@@ -9,7 +10,20 @@
 
 	let { children } = $props();
 	useSiteConfig(() => siteConfig);
+
+    // Use the native View Transitions API for smooth page transitions
+	onNavigate((navigation) => {
+		if (!document.startViewTransition) return;
+
+		return new Promise((resolve) => {
+			document.startViewTransition(async () => {
+				resolve();
+				await navigation.complete;
+			});
+		});
+	});
 </script>
+
 
 <MetaData />
 
