@@ -40,7 +40,7 @@
 		name: 'Lost Saint',
 		role: 'Software Developer',
 		location: 'United States',
-		bio: "Hi, I'm Lost Saint. I'm a software developer from Nepal who loves building innovative solutions and bringing ideas to life through code. I specialize in full-stack development, creating everything from interactive visualizers and games to enterprise applications.",
+		bio: "Hi, I'm Lost Saint. I'm a software developer from Texas who loves building innovative solutions and bringing ideas to life through code. I specialize in full-stack development, creating everything from interactive visualizers and games to enterprise applications.",
 		quote: 'The internet can still be fun.'
 	};
 

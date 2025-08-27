@@ -1,5 +1,5 @@
 <script>
-	import Bento from '$lib/components/Bento.svelte';
+	// import Bento from '$lib/components/Bento.svelte';
 </script>
 
-<Bento />
+<h1>Coming soon</h1>
